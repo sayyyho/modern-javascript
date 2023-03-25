@@ -10,6 +10,7 @@ myFn();
 
 const arr = [1, 2, 3];
 
+// 2. 구조 분해 할당, 값을 해체 후 개별 값을 변수에 새로 할당
 const [one, two] = arr;
 
 console.log(one);
