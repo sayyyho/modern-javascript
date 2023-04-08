@@ -82,3 +82,8 @@ console.log(first, second); // 1 2
 const [one, two] = datas;
 console.log(one, two); // 1 2
 ```
+
+## Spread Syntax (전개연산자)
+
+- 객체나 배열의 안의 요소들을 펼쳐 복사에 이용. 자기 자신 객체, 배열은 영향 안받음
+- 함수의 아규먼트에 쓰이면, 나머지 연산자로 작용. 나머지 인자값들을 모아 배열로 생성

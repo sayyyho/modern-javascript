@@ -66,8 +66,10 @@ const datas = [1, 2];
 // before es6
 const first = datas[0];
 const second = datas[1];
-console.log(first, second); // 🐶 😽
+console.log(first, second); // 1 2
 
 // after es6
 const [one, two] = datas;
-console.log(one, two); // 🐶 😽
+console.log(one, two); // 1 2
+
+// Spread Syntax
