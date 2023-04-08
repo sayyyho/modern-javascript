@@ -1,4 +1,6 @@
-# 연산자 최신 문법
+# 연산자 및 값 할당 관련 최신 문법
+
+<br />
 
 ## 지수 연산자
 
@@ -38,4 +40,45 @@ const seho3 = {
   name,
   age,
 };
+```
+
+## Destructuring Assignment (구조 분해 할당)
+
+- 객체, 배열안의 원소값들을 바깥 변수로 한번에 빼서 사용하기 위한 기법
+
+```
+// object
+const info = {
+  univ: "dongguk",
+  grade: 3,
+};
+
+// object
+// before es6
+
+const univ1 = info.univ;
+const grade1 = info.grade;
+console.log(univ1, grade1);
+
+// after es6
+
+// 프로퍼티와 동일한 변수명
+let { univ, grade } = info;
+console.log(univ, grade); // dongguk 3
+
+// 다른 변수명 사용
+const { univ: univ3, grade: grade3 } = info;
+console.log(univ3, grade3); // dongguk 3
+
+// array
+const datas = [1, 2];
+
+// before es6
+const first = datas[0];
+const second = datas[1];
+console.log(first, second); // 🐶 😽
+
+// after es6
+const [one, two] = datas;
+console.log(one, two); // 🐶 😽
 ```
