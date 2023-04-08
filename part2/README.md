@@ -4,8 +4,4 @@
 
 - x \*\* n 은 x의 n승
 
-<pre>
-    <code>
-        console.log(2 ** 7); // 128
-    </code>
-</pre>
+  console.log(2 \*\* 7); // 128
