@@ -16,4 +16,4 @@
 - 초기화
 - 할당
 
-출처 : https://junhobaik.github.io/js-let-cont-hoisting/
+ref : https://junhobaik.github.io/js-let-cont-hoisting/
