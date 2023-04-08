@@ -7,9 +7,7 @@
 <p> code </p>
 
 ```
-
 console.log(2 ** 7); // 128
-
 ```
 
 ## Numeric separators
@@ -21,4 +19,27 @@ console.log(2 ** 7); // 128
 
 ```
 console.log(1_00_000_000 + 1_000); // 100001000
+```
+
+## Shorthand property names
+
+- 프로퍼티 이름과 value값의 변수이름과 동일할때는 하나로 생략 가능
+
+```
+// 일반적인 예
+
+const seho = {
+  name: "seho",
+  age: "24",
+};
+
+const name = "seho";
+const age = "24";
+
+// 변수명과 프로퍼티 이름이 동일한 경우
+
+const seho3 = {
+  name,
+  age,
+};
 ```
