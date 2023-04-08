@@ -4,7 +4,8 @@ ES6에 기반한 모던 자바스크립트 문법에 관한 정리
 
 ## Part 1
 
-- [정리내용 보러가기](https://github.com/sayyyho/modern-javacript)
+- [정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1)
+
   - 호이스팅
 
   참고 : https://velog.io/@yeonlisa/Modern-Javascript-KoansES6-문법
