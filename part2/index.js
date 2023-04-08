@@ -73,3 +73,36 @@ const [one, two] = datas;
 console.log(one, two); // 1 2
 
 // Spread Syntax
+
+const obj1 = { key: "key1" };
+const obj2 = { key: "key2" };
+const array = [obj1, obj2];
+
+// array copy
+const arrayCopy = [...array];
+console.log(arrayCopy); // [ { key: 'key1' }, { key: 'key2' } ]
+
+const arrayCopy2 = [...array, { key: "key3" }];
+obj1.key = "newKey";
+
+// array배열은 래퍼런스 값을 갖고있는 배열이다. 그래서 전개연산자로 복사하여도
+// 레퍼런스 변수는 복사로 취급하지만, 그걸 잇는 주소연결은 똑같다.
+
+console.log(array); // [ { key: 'newKey' }, { key: 'key2' } ]
+console.log(arrayCopy2); // [ { key: 'newKey' }, { key: 'key2' }, { key: 'key3' } ]
+
+// object copy
+const obj3 = { ...obj1 };
+console.log(obj3); // { key: 'newKey' }
+
+// array concatenation
+const fruits1 = ["🍑", "🍓"];
+const fruits2 = ["🍌", "🥝"];
+const fruits = [...fruits1, ...fruits2];
+console.log(fruits); // [ '🍑', '🍓', '🍌', '🥝' ]
+
+// object merge
+const dog1 = { dog: "🐕" };
+const dog2 = { dog: "🐶" };
+const dog = { ...dog1, ...dog2 };
+console.log(dog); // { dog: '🐶' }
