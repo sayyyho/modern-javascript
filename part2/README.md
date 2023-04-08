@@ -1,4 +1,4 @@
-# 연산자 및 값 할당 관련 최신 문법
+# 연산자 및 할당 관련 문법
 
 <br />
 
@@ -76,9 +76,9 @@ const datas = [1, 2];
 // before es6
 const first = datas[0];
 const second = datas[1];
-console.log(first, second); // 🐶 😽
+console.log(first, second); // 1 2
 
 // after es6
 const [one, two] = datas;
-console.log(one, two); // 🐶 😽
+console.log(one, two); // 1 2
 ```
