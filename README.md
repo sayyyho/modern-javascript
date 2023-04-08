@@ -14,7 +14,7 @@
 
 ## Part 2 : 최신 연산자 문법
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2)
 
 ### ref
 
