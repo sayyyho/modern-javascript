@@ -5,8 +5,11 @@
 - x \*\* n 은 x의 n승
 
 <p> code </p>
+
 ```
+
 console.log(2 ** 7); // 128
+
 ```
 
 ## Numeric separators
@@ -15,6 +18,7 @@ console.log(2 ** 7); // 128
 - 구분자는 임의의 위치에 맘대로 삽입 가능
 
 <p> code </p>
+
 ```
 console.log(1_00_000_000 + 1_000); // 100001000
 ```
