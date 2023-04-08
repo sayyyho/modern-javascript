@@ -8,13 +8,13 @@
 
 - 호이스팅
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1#readme)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1/article.md)
 
   <!-- - 호이스팅 -->
 
 ## Part 2 : 최신 연산자 및 할당 문법
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2#readme)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2/article.md)
 
 ### ref
 
