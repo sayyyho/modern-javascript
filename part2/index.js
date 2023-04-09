@@ -106,3 +106,23 @@ const dog1 = { dog: "🐕" };
 const dog2 = { dog: "🐶" };
 const dog = { ...dog1, ...dog2 };
 console.log(dog); // { dog: '🐶' }
+
+// Short circuit (단축 평가)
+
+// || case
+const food = {
+  val: "popcorn",
+};
+
+const re = (popc) => popc || "here is not val"; // popc가 null, false, ndefiend, 빈값이면 || 우측 값 return
+
+console.log(re()); // here is not value
+console.log(re(food)); // { val: 'popcorn' }
+
+const seaFood = {
+  name: "킹크랩",
+};
+
+// && case
+const getName = (fish) => fish && fish.name; // 만약 fish가 참이면, 우측값을 리턴한다.
+console.log(getName(seaFood)); // '킹크랩'
