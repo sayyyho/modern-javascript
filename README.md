@@ -1,20 +1,24 @@
 # modern-javascript
 
-최신 자바스크립트 문법에 관한 레포지터리
+<b>es6 이후 추가되거나 바뀐 자바스크립트 문법에 대해 정리한 레포지터리</b>
 
-## Part 1 : 호이스팅
+## Part 1 : JS의 컨셉
 
 ### 세부 목록
 
-- 호이스팅
+<!-- - 호이스팅 -->
 
 [정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1/article.md)
 
   <!-- - 호이스팅 -->
 
-## Part 2 : 최신 연산자 및 할당 문법
+## Part 2 : 연산자 관련 문법
 
 [정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2/article.md)
+
+## Part 3 : 문자열 다루기
+
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part3/article.md)
 
 ### ref
 
