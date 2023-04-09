@@ -1,4 +1,4 @@
-# 연산자 및 할당 관련 문법
+# 연산자 관련 문법
 
 <br />
 
@@ -125,7 +125,7 @@ console.log(dog); // { dog: '🐶' }
 
 ## Short circuit (단축 평가)
 
-- and연산자와 or연산자 특성을 이용해 반환값을 결정하는 기법
+- and 연산자와 or 연산자 특성을 이용해 반환값을 결정하는 기법
 
 ```
 // ||
@@ -133,7 +133,7 @@ const food = {
   val: "popcorn",
 };
 
-const re = (popc) => popc || "here is not val"; // popc가 null, false, ndefiend, 빈값이면 || 우측 값 return
+const re = (popc) => popc || "here is not val"; // popc이 null, false, undefiend, 빈값이면 || 우측 값 return, 이외 왼쪽 값 return
 
 console.log(re()); // here is not value
 console.log(re(food)); // { val: 'popcorn' }
