@@ -20,6 +20,10 @@
 
 [정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part3/part3.md)
 
+## Part 4 : 배열 최신 문법
+
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part4/part4.md)
+
 ### ref
 
 - https://velog.io/@yeonlisa/Modern-Javascript-KoansES6-문법
