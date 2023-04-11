@@ -8,17 +8,17 @@
 
 <!-- - 호이스팅 -->
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1/article.md)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part1/part1.md)
 
   <!-- - 호이스팅 -->
 
 ## Part 2 : 연산자 관련 문법
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2/article.md)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part2/part2.md)
 
 ## Part 3 : 문자열 다루기
 
-[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part3/article.md)
+[정리내용 보러가기](https://github.com/sayyyho/modern-javascript/tree/main/part3/part3.md)
 
 ### ref
 
